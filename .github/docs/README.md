@@ -27,3 +27,26 @@ MCP Setup Challenge – Documentation
  Command Executed
 ```bash
 npm install -g @modelcontextprotocol/cli
+
+### Result
+The installation did not complete successfully. npm returned an error indicating that the MCP CLI package could not be found in the public npm registry.
+
+### Error Details
+- npm error code: E404
+- Error message indicated that `@modelcontextprotocol/cli` does not exist in the npm registry.
+- npm also mentioned that the access token may have expired or been revoked.
+
+### Analysis
+Based on the error message, it appears that the MCP CLI is not available as a publicly distributed npm package. This suggests that MCP may be managed internally, integrated directly into supported IDEs, or configured through server definitions rather than a global CLI installation.
+
+### Troubleshooting Steps
+- Verified that npm was installed and working correctly.
+- Confirmed stable internet connectivity.
+- Re-ran the installation command to rule out transient errors.
+- Reviewed npm output to understand the root cause of the failure.
+
+### Insights Gained
+- Not all development tools are installed via global npm commands.
+- Modern AI tooling may rely on IDE-level integrations instead of standalone CLIs.
+- Properly documenting errors and analysis is an essential part of technical problem solving.
+
