@@ -22,3 +22,8 @@ MCP Setup Challenge – Documentation
  5. Insights Gained (So Far)
 - AI agents behave better when given clear instructions and boundaries.
 - A rules file is an effective way to align the AI assistant with my thinking style.
+
+ 6. MCP Setup – Installation Attempt
+ Command Executed
+```bash
+npm install -g @modelcontextprotocol/cli
