@@ -50,3 +50,11 @@ Based on the error message, it appears that the MCP CLI is not available as a pu
 - Modern AI tooling may rely on IDE-level integrations instead of standalone CLIs.
 - Properly documenting errors and analysis is an essential part of technical problem solving.
 
+### MCP Verification
+
+After adding the Tenx MCP server and authorizing via GitHub:
+- The server was successfully connected in VS Code.
+- Switched Copilot Chat to "Agent" mode.
+- Verified that 55 tools were available to the AI agent.
+- This confirms that the MCP server is fully operational and logging interactions correctly.
+- This completes the MCP setup and integration tasks for the TRP-1 challenge.
